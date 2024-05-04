@@ -52,5 +52,5 @@ Contributions are welcome! Here's how you can contribute to this project:
 [MIT License](LICENSE)
 
 ## Author
-Your Name - [Swapnanil Sarkar](https://www.linkedin.com/in/swapnanilsarkar/)
+[Swapnanil Sarkar](https://www.linkedin.com/in/swapnanilsarkar/)
 
