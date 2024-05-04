@@ -1,0 +1,63 @@
+body {
+  background-image: url(/static/images/nrc.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.page {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #377ba8;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #377ba8;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+table.dataframe {
+  margin: 0 auto; /* Center align table */
+  width: 100%; /* Adjust table width */
+  color: black; /* Change font color to black */
+}
+
+.dataframe th,
+.dataframe td {
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+  opacity: 90%;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #ffff99;
+}
