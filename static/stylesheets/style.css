@@ -1,29 +1,79 @@
 body {
-	background-image: url(/static/images/nrc.png);
+    background-image: url(/static/images/nrc.png);
     background-size: cover;
-	color:white;
-	text-align: center;
-	padding-top:5px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-	padding-top:150px;
-	color:white;
-	text-align:center;
-	font-size: 50px;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
 }
 
-p1{
-	font-size:20px;
-	color: black
-}
-
-span {
-	background-color: white;
+p1 {
+    font-size: 20px;
+    color: black;
 }
 
 form {
-	padding-top:50px;
-	width:100%;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
 }
 
+form input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+	width: 100px;
+    background-color: #e50914; /* Netflix red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b2070d; /* Darker red on hover */
+}
+
+/* p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+span {
+	color: antiquewhite;
+    font-weight: bold;
+} */
+
+
+
+mark {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
