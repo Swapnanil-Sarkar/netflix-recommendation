@@ -16,6 +16,9 @@ This is a web-based recommendation system for Netflix users. It allows users to 
 - HTML/CSS: Frontend development for user interface.
 - scikit-learn: Machine learning library for recommendation algorithms.
 
+## Source of Data
+https://www.kaggle.com/netflix-inc/netflix-prize-data
+
 ## Installation
 1. Clone this repository to your local machine:
     ```cmd
